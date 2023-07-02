@@ -1,2 +1,2 @@
 # rsschool-cv
-https://camomileone.github.io/
+https://camomileone.github.io/rsschool-cv/cv
