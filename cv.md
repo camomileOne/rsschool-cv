@@ -45,7 +45,7 @@ int getSumOfDivisors(int n) {
 I've complited several Online courses (HTML, CSS, JavaScript, etc.). Here it is my C# certificate:
 
 
-[<img align="center" alt="C# Certificate" width="877px"  src="cert.png" />](https://rs.school/)
+[<img align="center" alt="C# Certificate" width="877px" src="cert.png" />](https://api2.sololearn.com/v2/certificates/CC-6BLRQDJC/image/png)
 
 ## Education
 
