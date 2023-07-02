@@ -23,14 +23,9 @@ I'm patient and hardworking person. I desperately want to become a Web Developer
 * **Programming languages:** JavaScript, Python, C, C++, C#
 
 ## Code example
-This is a solution of problem given in my University. You have to find Amicable numbers in given range using C language.
+This is one of simple functions I wrote:
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
-
-#define SIZE 14
-
 int getSumOfDivisors(int n) {
     int sum = 1;
     int i = 2;
@@ -43,44 +38,18 @@ int getSumOfDivisors(int n) {
         sum += i;
     return sum;
 }
-
-int main() {
-    system("chcp 1251");
-    system("cls");
-    
-    int m, n;
-    char input[SIZE] = "";
-    printf("Введите строку:\n");
-    fgets(input, SIZE, stdin);
-    printf("Размер буфера до отсечения строки: %zu\n", sizeof(input));
-    input[2] = '\0';
-    printf("Размер буфера после отсечения строки: %zu\n", sizeof(input));
-    printf("Строка после отсечения: %s\n", input);
-    (void) sscanf_s(input, "%d %d", &m, &n);
-    int k = 0;
-    for (; m <= n; ++m) {
-        k++;
-        int m2 = getSumOfDivisors(m);
-        if (m < m2 && m2 <= n && m == getSumOfDivisors(m2)) {
-            printf("%d %d\n", m, m2);
-        }
-        if (k == 100000) {
-            break;
-        }
-    }
-    printf("%d\n", m);
-    printf("%d\n", m);
-    (void) getchar();
-}
 ```
-## Education
-
-Bachelor of **Software Engineering** in Izhevsk State Technical University
 
 ## Experience
 
 I've complited several Online courses (HTML, CSS, JavaScript, etc.). Here it is my C# certificate:
-[<img align="center" alt="C# Certificate" width="100px"  src="img/cert.png" />](https://rs.school/) 
+
+
+[<img align="center" alt="C# Certificate" width="877px"  src="cert.png" />](https://rs.school/)
+
+## Education
+
+Bachelor of **Software Engineering** in Izhevsk State Technical University
 
 ## Languages
 
