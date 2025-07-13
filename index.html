@@ -1,11 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roman Lobovikov - CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    header,
+    footer {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #007acc;
+    }
+
+    img.avatar {
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 150px;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      overflow-x: auto;
+      border-radius: 4px;
+    }
+
+    code {
+      font-family: monospace;
+    }
+
+    footer {
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    footer img {
+      height: 20px;
+      vertical-align: middle;
+    }
+  </style>
 </head>
+
 <body>
+  <header>
+    <h1>Roman Lobovikov</h1>
+    <h2>Junior Frontend Developer</h2>
+    <img src="https://avatars.githubusercontent.com/u/29918536?v=4" alt="Roman Lobovikov avatar" class="avatar">
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code">Code Example</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a patient and hardworking person. I desperately want to become a
+        Web Developer. I'm currently taking a preparatory course
+        «JavaScript/Front-end. Stage 0» at RS School.
+      </p>
+    </section>
+
+    <section id="contacts">
+      <h2>Contacts</h2>
+      <ul>
+        <li>Location: Russia, Izhevsk</li>
+        <li>Discord: seems.legit</li>
+        <li>
+          Email:
+          <a href="mailto:camomile.one@gmail.com">camomile.one@gmail.com</a>
+        </li>
+        <li>
+          GitHub: <a href="https://github.com/camomileOne/">camomileOne</a>
+        </li>
+        <li><a href="https://t.me/IZH_Roman_Lobovikov">Telegram</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/roman-lobovikov-1850a327/">LinkedIn</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C, C++, C#</li>
+      </ul>
+    </section>
+
+    <section id="code">
+      <h2>Code Example</h2>
+      <pre><code>
+int getSumOfDivisors(int n) {
+    int sum = 1;
+    int i = 2;
+    for (; i &lt; n / i; i++) {
+        if (n / i * i == n) {
+            sum += i + n / i;
+        }
+    }
+    if (i * i == n)
+        sum += i;
+    return sum;
+}
+      </code></pre>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a href="https://camomileone.github.io/rsschool-cv/" target="_blank">My First Project</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education & Languages</h2>
+      <p>
+        Bachelor of <strong>Software Engineering</strong> in Izhevsk State
+        Technical University
+      </p>
+      <p>Languages:</p>
+      <ul>
+        <li>Russian - native</li>
+        <li>English - Intermediate (CEFR B1)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://github.com/camomileOne/">GitHub</a> | 2025 |
+      <a href="https://rs.school/courses/javascript-ru">
+        <img
+          src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/refs/heads/master/tasks/cv/rs-school-logo.svg"
+          alt="RS School">
+      </a>
+    </p>
+  </footer>
 </body>
+
 </html>
